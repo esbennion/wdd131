@@ -3,9 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>WDD 131</title>
+    <title>WDD 131 – Dynamic Web Fundamentals – Emily Bennion</title>
+    <meta name= "description" content="WDD 131 Dynamic Web Fundamentals Home Page for Emily Bennion. A course page for focusing of dynamic web fundamental components, html design, and front-end web development.">
+    <meta name="author" content="Emily Bennion">
+    <link rel="stylesheet" href="styles/base.css"> 
+    <script src="scripts/getdates.js" defer></script>
 </head>
 <body>
-    <h1>WDD 131 - Emily Bennion</h1>
+    <header>
+        <span id="course-title">WDD 131: Dynamic Web Fundamentals</span>
+        <nav>
+            <ul>
+                <li><a href="https://www.linkedin.com/">LinkedIn</a></li>
+                <li><a href="https://byupw.instructure.com/">BYU Pathway</a></li>
+                <li><a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/enos/1?lang=eng">Scripture</a></li>
+                <li><a href="final-project.html">Final Project</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Emily Bennion</h1>
+        <div class="grid-container">
+            <section class="card">
+            <h3>About Me</h3>
+            <div class="about-content">
+                <p>Hello! I'm Emily Bennion. I live in the state of Iowa and have only lived here for 1 year. I am currently studying at BYU Pathway and am passionate about getting my education furthured. I am a mother of 4 kids and I enjoy spending time with them and my husband.</p>
+                <img src="images/emilybennion.png" alt="Emily Bennion">
+            </div>
+        
+        <hr>
+
+        <h4>Iowa, United States</h4>
+        <div class="country-content">
+            <figure>
+                <img src="images/iowa-city.jpg" alt="Iowa, United States">
+                <figcaption>Corn Fields of Iowa</figcaption>
+            </figure>
+            <p>Iowa is known for its vast cornfields and its abundant farmland. Politically Iowa is notable for the Ioaw Caucuses, which are the first contests in the United States presidential elections.</p>
+        </div>
+            </section>
+
+            <section class="card">
+                <h3>Web Dev Resources</h3>
+                <ul>
+                    <li><a href="https://dev.to" target="_blank">Dev.to Community</a></li>
+                    <li><a href="https://smashingmagazine.com" target="_blank">Smashing Magazine</a></li>
+                    <li><a href="https://css-tricks.com" target="_blank">CSS Tricks</a></li>
+                    <li><a href="https://w3schools.com" target="_blank">W3Schools</a></li>
+                    <li><a href="https://udemy.com" target="_blank">Udemy</a></li>
+                    <li><a href="https://picsum.photos" target="_blank">Lorem Picsum Image Placeholder</a></li>
+                </ul>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> | Emily Bennion | Iowa, United States</p>
+        <p id="lastmodified"></p>
+    </footer>
 </body>
 </html>

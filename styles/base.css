@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: #f4f6f9;
+    color: black;
+}
+
+header {
+    background-color: #1c355e;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+#course-title {
+    font-size: 2rem;
+    display: block;
+    margin-bottom: 1rem;
+    letter-spacing: 1px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    background-color: rgb(29, 25, 25);
+    padding: 1rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+nav a:hover {
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+main h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1c355e;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 2rem;
+    align-items: start;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #1c355e;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+
+.card h3 {
+    background-color: #1c3553;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 550;
+} 
+
+.about-content {
+    display: flex;
+    gap: 1.5rem;
+    padding: 1.5rem;
+    align-items: flex-start;
+}
+
+.about-content p {
+    flex: 1;
+    margin:0;
+}
+
+.profile-image {
+    width: 100px;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, .012);
+    
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background: #e5e7eb;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+}
+
+.card h4 {
+    padding: 1 1.5rem;
+    font-size: 1.25rem;
+    color:#2b4c7e;
+    margin-bottom: 1rem;
+}
+
+.country-content {
+    display: flex;
+    gap: 1.5rem;
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    align-items: flex-start;
+}
+
+.country-content p {
+    flex:1;
+}
+
+.country-content figure {
+    text-align: center;
+    max-width: 160px;
+}
+
+.country-content img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #e5e7eb;
+    border-radius: 4 px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+
+}
+
+.country-content figcaption {
+    font-size: 1rem;
+    font-style: italic;
+    color: rgb(41, 35, 35);
+    margin-top: 0.35rem;
+}
+
+.resources-card ul {
+    list-style: none;
+    padding: 1.5rem;
+}
+
+.resources-card li {
+    margin-bottom: 1rem;
+    padding-left: 0;
+    text-align: center;
+}
+
+.resources-card a {
+    color: #0033cc;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1 rem;
+    display: block; 
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap:2rem;
+    align-items: stretch;
+}
+
+.resources-card a:hover {
+    text-decoration: underline;
+    color: #1c355e;
+
+}
+
+footer {
+    background-color: #1c355e;
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+    border-bottom: 2px solid #2b4c7e;
+}
+
+footer p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+
+}
+
+#lastModifiedSpan {
+    font-size: 0.9rem;
+    color: yellow;
+    font-weight: bold;
+    margin-top: 0.5rem;
+}
