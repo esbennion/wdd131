@@ -31,6 +31,8 @@ nav ul {
     gap: 3rem;
     background-color: rgb(29, 25, 25);
     padding: 1rem 0;
+    margin: 0;
+    list-style: none;
 }
 
 nav a {
