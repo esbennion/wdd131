@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temple Picture Album</title>
+    <meta name="author" content="Emily Bennion">
+    <meta name="description" content="A picture album of various temples">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arial&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/temples.css">
+    <link rel="stylesheet" href="styles/temples-large.css" media="(min-width: 768px)">
+    <script src="scripts/temples.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Temple Album</h1>
+        <button id="hamburger" aria-label="Hamburger Menu">☰</button>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#" target="blank">Home</a></li>
+                <li><a href="#" target="blank">Old</a></li>
+                <li><a href="#" target="blank">New</a></li>
+                <li><a href="#" target="blank">Large</a></li>
+                <li><a href="#" target="blank">Small</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Home</h2>
+        <div id="temples">
+            <figure>
+                <img src="images/atlanta_temple_lds.jpg" alt="Atlanta Temple">
+                <figcaption>Atlanta Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/desmoines_temple_rendering.jpg" alt="Des Moines Temple">
+                <figcaption>Des Moines Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/salt_lake_temple.jpg" alt="Salt Lake Temple">
+                <figcaption>Salt Lake Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/accra_ghana_temple_lds.jpg" alt="Accra Ghana Temple">
+                <figcaption>Accra Ghana Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/gilbert_arizona_temple_exterior.jpg" alt="Gilbert Arizona Temple">
+                <figcaption>Gilbert Arizona Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/jordan_river_temple_lds.jpg" alt="Jordan River Temple">
+                <figcaption>Jordan River Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/nauvoo_temple_lds.jpg" alt="Nauvoo Temple">
+                <figcaption>Nauvoo Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/orlando_florida_temple.jpg" alt="Orlando Temple">
+                <figcaption>Orlando Temple</figcaption>
+            </figure>
+            <figure>
+                <img src="images/santiago_chile_temple_lds.jpg" alt="Santiago Chile Temple">
+                <figcaption>Santiago Chile Temple</figcaption>
+            </figure>
+        </div>    
+    </main>
+
+    <footer>
+        <p>&copy;<span id="currentyear"></span> 🤍 Emily Bennion 🤍 Iowa, United States</p>
+        <p id="lastmodified"></p>
+    </footer>
+</body>
+</html>
