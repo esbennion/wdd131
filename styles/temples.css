@@ -1,9 +1,7 @@
 * {
     box-sizing: border-box;
-    max-width: 800px;
-    margin: 0.5rem;
+    margin: 0;
     padding: 0;
-
 }
 
 body {
@@ -28,8 +26,7 @@ header {
     color: black;
 }
 
-
-header, h1 {
+header h1 {
     margin-bottom: 0.5rem;
     text-align: left;
     font-size: 20px;
@@ -45,9 +42,12 @@ header, h1 {
     top: 15px;
 }
 
-.navigation {
+nav {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+}
+.navigation {
+    display: none;
     list-style: none;
     width: 100%;
     text-align: center;
@@ -71,16 +71,13 @@ header, h1 {
     background-color: rgb(111, 164, 214);
     color: white;
     text-decoration: none;
-
 }
 
 .navigation a:hover {
     padding: 0.5rem;
-    text-decoration: 
-underline double;
+    text-decoration: underline double;
     background-color: blue;
     color: white;
-    
 }
 
 .navigation.open {
@@ -104,7 +101,6 @@ h2 {
     text-align: center;
     margin-bottom: 1rem;
 }
-
 
 figure img {
     width: 100%;
