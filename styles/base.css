@@ -59,7 +59,12 @@ main h1 {
     text-align: center;
     color: #1c355e;
 }
-
+ h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1c355e;
+ }
 .grid-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
