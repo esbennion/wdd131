@@ -65,11 +65,12 @@ main h1 {
     text-align: center;
     color: #1c355e;
  }
+
 .grid-container {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 2rem;
-    align-items: start;
+    align-items: stretch;
 }
 
 .card {
@@ -118,7 +119,7 @@ hr {
 }
 
 .card h4 {
-    padding: 1 1.5rem;
+    padding: 1rem;
     font-size: 1.25rem;
     color: #2b4c7e;
     margin-bottom: 1rem;
@@ -144,8 +145,6 @@ hr {
     width: 100%;
     height: auto;
     border: 1px solid #e5e7eb;
-    border-radius: 4 px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
 }
 
 .country-content figcaption {
@@ -170,15 +169,8 @@ hr {
     color: #0033cc;
     text-decoration: none;
     font-weight: 500;
-    font-size: 1 rem;
+    font-size: 1rem;
     display: block;
-}
-
-.grid-container {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-    gap: 2rem;
-    align-items: stretch;
 }
 
 .resources-card a:hover {
