@@ -64,4 +64,9 @@ footer {
     .hero img {
         height: 300px;
     }
+    .weather h2 ::after {
+        content: "🌞";
+        display: block;
+        margin-top: 0.5rem;
+    }
 }
