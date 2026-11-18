@@ -22,7 +22,7 @@ body {
 
 header {
     background-color: var(--primary-color);
-    color: var(--light-color);  
+    color: var(--background-color);  
     padding: 1rem;
     text-align: center;
 }
@@ -55,7 +55,7 @@ header h1{
 
 footer {
     background-color: var(--primary-color);
-    color: var(--light-color);
+    color: var(--background-color);
     padding: 1rem;
     text-align: center;
 }

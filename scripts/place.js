@@ -19,4 +19,13 @@ function calculateWindChill(temp, speed) {
     ).toFixed(1);
 }
 
-document.getElementById("windchill").textContent = '${calculateWindChill(temperature, windSpeed)}';
+const windChillElement = document.getElementById("windchill");
+
+if (windChillElement) {
+    if (temperature <= 10 && windSpeed > 4.8) {
+        windChillElement.textContent =
+            `${calculateWindChill(temperature, windSpeed)} °C`;
+    } else {
+        windChillElement.textContent = "N/A";
+    }
+}
