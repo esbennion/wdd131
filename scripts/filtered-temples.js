@@ -138,7 +138,7 @@ largeTemplesButton.addEventListener("click", () => {
 
 function createTempleCards(filtetredTemples) {
     document.querySelector(".res-grid").innerHTML = ""; 
-    filtetredTemples.forEach((temple => {
+    filtetredTemples.forEach((temple) => {
         let card = document.createElement("section");
         let name= document.createElement("h3");
         let location = document.createElement("p");
@@ -161,5 +161,5 @@ function createTempleCards(filtetredTemples) {
         card.appendChild(image);
 
         document.querySelector(".res-grid").appendChild(card);
-    }));
+    });
 }
