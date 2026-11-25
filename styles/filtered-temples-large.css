@@ -1,0 +1,56 @@
+@media (min-width: 768px) {
+    #hamburger {
+        display: none;
+    }
+
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 100%;
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        padding: 1rem 2rem;
+        text-align: left;
+    }
+
+    header h1 {
+        margin: 0;
+        white-space: nowrap;
+        font-size: 1.5rem;
+    }
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        gap: 1rem;
+        padding: 0;
+        width: auto;
+        max-width: none;
+    }
+
+    .navigation li {
+        width: auto;
+        max-width: none;
+        margin: 0;
+    }
+
+    .navigation a {
+        text-decoration: none;
+        color: black;
+        padding: 0.5rem 1rem;
+        display: inline-block;
+        white-space: nowrap;
+        
+    }
+
+    #temples {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+        gap: 1.5rem;
+        width: 100%;
+    }
+
+}
